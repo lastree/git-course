@@ -14,4 +14,9 @@ public class Exercise1 {
     public void multiplica2numeros(){
         assertEquals(4, 2*2);
     }
+
+    @Test
+    public void calcularPorcentaje(){
+        assertEquals(0, 1/2*100);
+    }
 }
