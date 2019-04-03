@@ -10,5 +10,8 @@ public class Exercise1 {
         assertEquals(4, 2+2);
     }
 
-
+    @Test
+    public void multiplica2numeros(){
+        assertEquals(4, 2*2);
+    }
 }
