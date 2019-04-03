@@ -14,4 +14,10 @@ public class Exercise1 {
     public void multiplica2numeros(){
         assertEquals(4, 2*2);
     }
+
+    @Test
+    public void string2minus(){
+        String cadena = "Todo a MINÚSCULAS";
+        assertEquals("todo a minúsculas", cadena.toLowerCase());
+    }
 }
