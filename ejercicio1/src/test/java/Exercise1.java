@@ -11,6 +11,11 @@ public class Exercise1 {
     }
 
     @Test
+    public void rest2numeros(){
+        assertEquals(2, 4-2);
+    }
+
+    @Test
     public void multiplica2numeros(){
         assertEquals(4, 2*2);
     }
